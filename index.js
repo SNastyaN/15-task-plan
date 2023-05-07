@@ -9,8 +9,8 @@ function addNewTask() {
     newtask.className="new"
     newtask.innerText=task.value;
     console.log(newtask)
-    let input = document.createElement('input'); // Создаём первый элемент
-        input.type = 'radio'; // Проставляем ему тип
+    let input = document.createElement('input');
+        input.type = 'radio';
     block.appendChild(newtask);
     block.appendChild(input);
     task.value='';
